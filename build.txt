@@ -32,8 +32,6 @@ export OF_STATUS_H=110
 export OF_STATUS_INDENT_LEFT=80
 export OF_STATUS_INDENT_RIGHT=80
 export OF_SCREEN_H=2400
-export OF_MAINTAINER=RJohn
+export OF_MAINTAINER=NoEscape.exe
 source build/envsetup.sh
 lunch twrp_larry-eng && mka adbd bootimage
-
-
