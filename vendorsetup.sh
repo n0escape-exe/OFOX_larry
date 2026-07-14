@@ -1,6 +1,4 @@
-#Just copy and paste below lines in terminal
-
-source build/envsetup.sh
+#!/bin/bash
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_BUILD_DEVICE=larry
 export LC_ALL="C"
@@ -33,5 +31,4 @@ export OF_STATUS_H=110
 export OF_STATUS_INDENT_LEFT=80
 export OF_STATUS_INDENT_RIGHT=80
 export OF_SCREEN_H=2400
-export OF_MAINTAINER=NoEscape.exe
-lunch twrp_larry-eng && mka adbd bootimage
+export OF_MAINTAINER="NoEscape.exe"
